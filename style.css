@@ -1,3 +1,35 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Brush Script MT', cursive;
+}
+
+h1 {
+  margin-bottom: -25px;
+  margin-top: 20px;
+  font-size: 70px;
+  color:  #ff9900;
+}
+
+#btn {
+    width: 20%;
+    height: 20%;
+    background-color: #f2f2f2;
+    border: 5px solid #ffad33;
+    border-radius: 10px;
+    color: #ffad33;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Brush Script MT', cursive;
+}
+
+#container {
+  border: 20px solid #ffad33;
+  border-radius: 20px;
+}
+
 .section {
   display: flex;
   width: 100%;
